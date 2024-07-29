@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    height:50px;
+}
+.facebookhomepage{
+    position:absolute ;
+    left:50%;
+    transform: translate( -50%);
+}
+.header{
+    background-color:white;
+    width:412px;
+    height:100px;
+}
+h1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size:35px;
+    color:black;
+    position:absolute  ;
+    left:8px;
+}
+h2{
+    position:absolute ;
+    top:10px;
+    left:300px;
+    font-size:25px;
+    color:black;
+}
+h3{
+font-size:25px;
+    position:absolute  ;
+    top:10px;
+    left:340px;
+    color:black;
+}
+h4{
+    font-size:25px;
+    position:absolute ;
+    top:10px;
+    left:380px;
+    color:black;
+}
+.page{
+position:absolute ;
+top:50px;
+}
+.page :hover{
+    color:#3572EF;;
+}
+.prof{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    z-index:100;
+    position:absolute;
+    top:110px;
+    left:15px;    
+
+}
+.writing{
+text-align:center;
+font-size:15px;
+    width:280px;
+    height:35px;
+    border-radius:20px;
+    position:absolute ;
+    top:113px;
+    left:70px;
+    border :2px solid #DDDDDD;
+}
+.takepicture {
+     position:absolute ;
+    top:117px;
+    left:370px;
+    font-size:30px;
+    color:green;
+}
+.line{
+    width:412px;
+    height:1px;
+    position:absolute ;
+    top:100px;
+    background-color:#DDDDDD;
+}
+.line2{
+    width:412px;
+    height:7px;
+    position:absolute ;
+    top:165px;
+    background-color:#C7C8CC;
+}
+.line3{
+    width:412px;
+    height:7px;
+    position:absolute ;
+    top:390px;
+    background-color:#C7C8CC;
+}
+.line4{
+   width:412px;
+    height:7px;
+    position:absolute ;
+    top:900px;
+    background-color:#C7C8CC; 
+}
+.line5{
+    width:412px;
+     height:7px;
+     position:absolute ;
+     top:1410px;
+     background-color:#C7C8CC; 
+ }
+ .line6{
+    width:390px;
+     height:2px;
+     position:absolute ;
+     top:1860px;
+     left: 15px;
+     opacity: 40%;
+     background-color:#C7C8CC; 
+ }
+ .line7{
+    width:412px;
+     height:7px;
+     position:absolute ;
+     top:1900px;
+     background-color:#C7C8CC; 
+ }
+.story{
+  width:110px;  
+    height:200px;
+    border-radius:10px;
+    position:absolute ;
+    top:180px;
+    left:10px;
+}
+.colo{
+    width:109px;
+    height:90px;
+    background-color:rgb(255, 255, 255);
+    position:absolute ;
+    top:290px;
+    left:9px;
+    border-radius:0% 0% 10px 10px;
+    border :1px solid #DDDDDD;
+}
+.creatnew{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    top: 360px;
+    left: 25px;
+}
+.mincercle{
+    width:50px;
+    height:50px;
+    background-color: white;
+    border-radius:50%;
+    position:absolute ;
+    top:265px;
+    left:35px;
+    z-index: 12;
+}
+
+
+.story2{
+  width:110px;  
+    height:200px;
+    background-color:red;
+    border-radius:10px;
+    position:absolute ;
+    top:180px;
+    left:130px;
+}
+
+.foto2{
+    width:40px;
+    height:40px;
+    background-color:black;
+    border-radius:50%;
+    position:absolute ;
+    top:190px;
+    left:140px;
+}
+
+
+.story3{
+  width:110px;  
+    height:200px;
+    background-color:red;
+    border-radius:10px;
+    position:absolute ;
+    top:180px;
+    left:250px;
+}
+
+.foto3{
+    width:40px;
+    height:40px;
+    background-color:black;
+    border-radius:50%;
+    position:absolute ;
+    top:190px;
+    left:260px;
+}
+
+
+.loader2 {
+    position:absolute ;
+    top:255px;
+    left:365px;
+    height: 20px;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid lightblue;
+    border-right-color: rgb(255, 0, 0);
+    animation: l2 1s infinite linear;
+  }
+  @keyframes l2 {to{transform: rotate(1turn)}}
+
+.myprof{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    position:absolute ;
+    top:415px;
+    left:20px;
+}
+.user{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 700;
+    font-size:15px;
+    position:absolute ;
+    top:420px;
+    left:70px;
+}
+.info{
+    position:absolute ;
+    top:425px;
+    left:380px;
+    font-size:20px;
+    color:grey;
+}
+.date{
+font-size:13px;
+position:absolute ;
+top:440px;
+left:70px;
+color:grey;
+}
+.emoji{
+    position:absolute ;
+    top:460px;
+    top:465px;
+    left:20px;
+    
+}
+.image{
+width:412px;
+height:330px;
+background: url(image/FB_IMG_1722115426129.jpg);
+background-size: cover;
+    position:absolute ;
+    top:490px;
+    left:0px;
+}
+.react1{
+    position:absolute ;
+    top:831px;
+    left:10px;
+    z-index:10;
+}
+.react2{
+    position:absolute ;
+    top:831px;
+    left:20px;
+    z-index:5;
+}
+.react3{
+    position:absolute ;
+    top:831px;
+    left:35px;
+}
+.names{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 500;
+    position:absolute ;
+    top:833px;
+    left:55px;
+    font-size:13px;
+}
+.comments{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 500;
+    position:absolute ;
+    top:833px;
+    left:250px;
+    font-size:13px;    
+}
+.shares{
+        font-family: "Roboto", 
+    sans-serif; font-weight: 500;
+    position:absolute ;
+    top:833px;
+    left:350px;
+    font-size:13px;
+}
+.likes{
+        font-family: "Roboto", 
+    sans-serif; font-weight: 500;
+    position:absolute ;
+    top:865px;
+    left:50px;
+    font-size:15px;
+}
+.comments2{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 500;
+    position:absolute ;
+    top:865px;
+    left:150px;
+    font-size:15px; 
+}
+.shares1{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 500;
+    position:absolute ;
+    top:865px;
+    left:300px;
+    font-size:15px;
+}
+.qurprof{
+position: absolute;
+top: 925px;
+left: 20px;
+}
+.user1{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 700;
+    font-size:15px;
+    position:absolute ;
+    top:930px;
+    left:70px;
+}
+.info1{
+    position:absolute ;
+    top:935px;
+    left:380px;
+    font-size:20px;
+    color:rgb(71, 71, 71);
+}
+.date1{
+font-size:13px;
+position:absolute ;
+top:950px;
+left:70px;
+color:rgb(100, 100, 100);
+}
+.emoji1{
+    position:absolute ;
+    top:975px;
+    left:150px;
+    font-family: "Zain", sans-serif;
+    font-weight: 700;
+}
+.video{
+    background-color: #e1e2e4;
+    width:412px;
+    height:330px;
+    position:absolute ;
+    top:1005px;
+    left:0px;
+}
+.react71{
+    position:absolute ;
+    top:1345px;
+    left:5px;
+    z-index:10;
+}
+.react72{
+    position:absolute ;
+    top:1345px;
+    left:15px;
+    z-index:5;
+}
+.react73{
+    position:absolute ;
+    top:1345px;
+    left:30px;
+}
+.names7{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 700;
+    position:absolute ;
+    top:1350px;
+    left:55px;
+    font-size:13px;
+}
+.comments7{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 700;
+    position:absolute ;
+    top:1350px;
+    left:200px;
+    font-size:13px;    
+}
+.shares7{
+        font-family: "Roboto", 
+    sans-serif; font-weight: 700;
+    position:absolute ;
+    top:1350px;
+    left:320px;
+    font-size:13px;
+}
+.likes00{
+    font-family: "Roboto", 
+sans-serif; font-weight: 500;
+position:absolute ;
+top:1380px;
+left:50px;
+font-size:15px;
+}
+.comments22{
+font-family: "Roboto", 
+sans-serif; font-weight: 500;
+position:absolute ;
+top:1380px;
+left:150px;
+font-size:15px; 
+}
+.shares11{
+font-family: "Roboto", 
+sans-serif; font-weight: 500;
+position:absolute ;
+top:1380px;
+left:300px;
+font-size:15px;
+}
+.myprof2{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    position:absolute ;
+    top:1430px;
+    left:20px;
+}
+.user2{
+    font-family: "Roboto", 
+    sans-serif; font-weight: 700;
+    font-size:15px;
+    position:absolute ;
+    top:1432px;
+    left:70px;
+}
+.info2{
+    position:absolute ;
+    top:1437px;
+    left:380px;
+    font-size:20px;
+    color:rgb(90, 88, 88);
+}
+.date2{
+font-size:13px;
+position:absolute ;
+top:1450px;
+left:70px;
+color:rgb(83, 83, 83);
+}
+.image2{
+    width:412px;
+    height:400px;
+    background: url(image/180258-ensemble-exceptionnel-de-vecteurs-d-ingenieurs-logiciels-gratuit-vectoriel.jpg);
+    background-size:cover ;
+    background-position-x: -81PX;
+    background-position-y: -80px;
+    position:absolute ;
+    top:1480px;
+    left:0px;
+}
+.workat{
+width: 412px;
+height: 200px;
+background-color: white;
+position: absolute;
+top: 1760px;
+left: 0;
+
+}
+.cir{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 50%;
+    position: absolute;
+     top: 1728px; left: 178PX;
+      z-index: 12;
+}
+.cir2{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+     top: 1720px; left: 171PX;
+      z-index: 11;
+}
+.worktitle{
+    font-size: 20px;
+    position: absolute;
+    top: 1790px;
+    left: 47px;
+    font-family: "Karla", sans-serif;
+  font-weight: 800;
+}
+.workdate{
+    font-size: 15px;
+    position: absolute;
+    top: 1820px;
+    left: 100px;
+    font-family: "Karla", sans-serif;
+  font-weight: 700; 
+}
+.workdate span{
+  font-weight: 400; 
+}
+.likes000{
+    font-family: "Roboto", 
+sans-serif; font-weight: 500;
+position:absolute ;
+top:1870px;
+left:50px;
+font-size:15px;
+}
+.comments222{
+font-family: "Roboto", 
+sans-serif; font-weight: 500;
+position:absolute ;
+top:1870px;
+left:150px;
+font-size:15px; 
+}
+.shares111{
+font-family: "Roboto", 
+sans-serif; font-weight: 500;
+position:absolute ;
+top:1870px;
+left:300px;
+font-size:15px;
+}
+
+.loader {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    animation: l1 1s linear infinite alternate;
+    position: absolute;
+    top: 1940px;
+    left: 160px;
+  }
+  .loader:before {
+    content:"Loading..."
+  }
+  @keyframes l1 {to{opacity: 0}}
